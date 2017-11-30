@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+*{
+  margin: 0px;
+  padding: 0px;	
+}
+
+
+.nomargin{
+   margin: 0px !important;
+}
+
+.nopadding{
+    padding: 0px !important;
+}
+
+
+.w100{
+	width: 100%;
+	height: auto;
+	float: left;
+} 
+
+@media ( min-width: 0px ) and (max-width: 767px){
+	.pull-right{
+	float: left !important;
+	}
+}
+ 
+@media (min-width: 768px){
+	.w100{
+		width: auto !important;
+	}
+}
+
+.navbar-inverse{
+	margin-bottom: 0px !important;
+	background: rgb(0, 0, 0) !important;
+	border-radius: 0px !important;
+	border: 1px solid rgb(0, 0, 0)!important;
+	background: #002882!important;
+}
+
+
+.active > a{
+    background: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav > li:hover > a{
+	background: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav > li > a{
+	color: rgb(0, 0, 0) !important;
+}
+
+
+.section-heading{
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	font-family: helvetica, arial, tahoma;
+
+}
+
+.lead{
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	font-family: helvetica, arial, tahoma;
+	text-align: justify;
+}
+
+
+.content-section-a{
+	padding: 50px 0;
+	background-color: rgb(0, 0, 0);
+}
+
+
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+
+.banner{
+	padding: 100px 0;
+	color: rgb(248, 248, 248);
+	background: url(../img/banner-bg1.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: right;
+	
+}
+
+.bg-dark{
+	background: rgb(0, 0, 0);
+	float: left;
+	min-height: 120px;
+	width: 100%;
+	color: rgb(255, 255, 255) !important;
+
+}
+
+<!--  <style type="text/css">
+    #sidebar-wrapper {
+  z-index: 1000;
+  left: 220px;
+  width: 0;
+  height: 100%;
+  margin-left: -220px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: rgb(0, 0, 0)  !important;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.sidebar-nav li:first-child a {
+    color: #fff;
+    background-color:red !important;
+}
+.sidebar-nav li:nth-child(2):before {
+    background-color: #000000;   
+}
+.sidebar-nav li:nth-child(3):before {
+    background-color: #000000;   
+}
+.sidebar-nav li:nth-child(4):before {
+    background-color: #000000;   
+}
+.sidebar-nav li:nth-child(5):before {
+    background-color: #279636;   
+}
+
+.sidebar-nav li:hover:before,
+.sidebar-nav li.open:hover:before {
+    width: 100%;
+    -webkit-transition: width .2s ease-in;
+      -moz-transition:  width .2s ease-in;
+       -ms-transition:  width .2s ease-in;
+            transition: width .2s ease-in;
+
+}
+
+.sidebar-nav li a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 15px 10px 30px;    
+}
+
+</style> -->
