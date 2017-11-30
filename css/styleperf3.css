@@ -75,6 +75,10 @@
 	background-color: rgb(0, 0, 0);
 }
 
+.content-section-b{
+    background-color: rgb(140, 98, 57);
+
+}
 
 .img-fluid{
 	width: 100%;
@@ -87,6 +91,7 @@
 	background: url(../img/banner-bg1.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: right;
+	height: 420px;
 	
 }
 
